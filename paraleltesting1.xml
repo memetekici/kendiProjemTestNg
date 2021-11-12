@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="kaola smoke suit" parallel="methods" thread-count="3" verbose="2" >
+    <test name="smoke test" >
+        <packages>
+            <package name="com.techproed.tests"></package>
+            <package name="com.techproed.exelautomation"></package>
+        </packages>
+
+    </test>
+</suite>

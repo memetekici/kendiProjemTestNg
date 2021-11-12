@@ -1,0 +1,40 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="TestSuit 2" verbose="2" >
+    <test name="Regression1" preserve-order="false">
+        <classes>
+
+            <class name="com.techproed.tests.AlertTest">
+                <methods>
+                    <include name="acceptAlert"></include>
+                    <include name="dismissAlert"></include>
+                </methods>
+            </class>
+
+            <class name="com.techproed.tests.AlertTest" />
+
+        </classes>
+    </test>
+    <test name="Regression2" preserve-order="false">
+        <classes>
+
+            <class name="com.techproed.tests.DropDown">
+                <methods>
+                    <include name="dropDownTest"></include>
+                    <include name="selectByVisibleText"></include>
+                </methods>
+            </class>
+            <class name="com.techproed.tests.DropDown">
+                <methods>
+                    <include name="dropDownTest"></include>
+                    <include name="selectByVisibleText"></include>
+                </methods>
+            </class>
+
+            <class name="com.techproed.tests.DropDown" />
+
+        </classes>
+    </test>
+
+</suite>
+

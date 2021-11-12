@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="kaola smoke suit" verbose="2" >
+    <test name="Regression Group1">
+        <groups>
+            <run>
+                <include name="regression1"></include>
+            </run>
+        </groups>
+
+        <classes>
+            <class name="com.techproed.tests.DropDown">
+            </class>
+        </classes>
+    </test>
+
+</suite>

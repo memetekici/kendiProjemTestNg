@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="kaola smoke suit" verbose="2" >
+    <test name="smoke test" >
+        <packages>
+            <package name=".*"></package>
+        </packages>
+
+
+    </test>
+</suite>
